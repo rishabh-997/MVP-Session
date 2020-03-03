@@ -10,6 +10,7 @@ public class MainModel {
 
     public void setQues(String ques) {
         this.ques = ques;
+        Log.i("hekko","hello");
     }
 
     public void setHello(long hello) {
