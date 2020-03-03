@@ -8,18 +8,6 @@ public class MainModel {
     boolean bye;
 
 
-    public void setQues(String ques) {
-        this.ques = ques;
-    }
-
-    public void setHello(long hello) {
-        this.hello = hello;
-    }
-
-    public void setBye(boolean bye) {
-        this.bye = bye;
-    }
-
     public int getData() {
         return data;
     }
