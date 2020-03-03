@@ -1,5 +1,7 @@
 package com.example.mvpsession;
 
+import android.util.Log;
+
 public class MainModel {
 
     int data;
@@ -8,6 +10,10 @@ public class MainModel {
     boolean bye;
 
 
+    public void setQues(String ques) {
+        this.ques = ques;
+        Log.i("hekko","hello");
+    }
     public int getData() {
         return data;
     }
